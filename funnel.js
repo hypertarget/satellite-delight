@@ -41,14 +41,14 @@
 
   var telHref = function(n){ return "tel:+1" + (n||"").replace(/\D/g,""); };
 
-  var LOGO = '<svg viewBox="0 0 64 64" fill="none" aria-label="Satellite Delight"><defs><linearGradient id="rg" x1="8" y1="56" x2="56" y2="8" gradientUnits="userSpaceOnUse"><stop stop-color="#2563EB"/><stop offset="1" stop-color="#38BDF8"/></linearGradient></defs><circle cx="32" cy="46" r="4.5" fill="url(#rg)"/><path d="M20 38 a17 17 0 0 1 24 0" stroke="url(#rg)" stroke-width="4.6" stroke-linecap="round"/><path d="M13.5 30 a26 26 0 0 1 37 0" stroke="url(#rg)" stroke-width="4.6" stroke-linecap="round"/><path d="M7 22 a35 35 0 0 1 50 0" stroke="url(#rg)" stroke-width="4.6" stroke-linecap="round"/></svg>';
+  var LOGO = '<svg viewBox="0 0 64 64" fill="none" aria-label="Satellite Delight"><defs><linearGradient id="rg" x1="8" y1="56" x2="56" y2="8" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#818CF8"/></linearGradient></defs><circle cx="32" cy="46" r="4.5" fill="url(#rg)"/><path d="M20 38 a17 17 0 0 1 24 0" stroke="url(#rg)" stroke-width="4.6" stroke-linecap="round"/><path d="M13.5 30 a26 26 0 0 1 37 0" stroke="url(#rg)" stroke-width="4.6" stroke-linecap="round"/><path d="M7 22 a35 35 0 0 1 50 0" stroke="url(#rg)" stroke-width="4.6" stroke-linecap="round"/></svg>';
 
-  var CK = '<svg class="ck" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
+  var CK = '<svg class="ck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
   var SHIELD = '<svg viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 7.7-8 9-4.5-1.3-8-4-8-9V6z"/></svg>';
-  var LOCK = '<svg viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
-  var STAR = '<svg viewBox="0 0 24 24" fill="#2563EB" stroke="none"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 18.9 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>';
+  var LOCK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
+  var STAR = '<svg viewBox="0 0 24 24" fill="#FBBF24" stroke="none"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 18.9 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>';
   // Friendly concierge avatar (brand gradient) for the conversational quiz framing.
-  var AVATAR = '<span class="qavatar"><svg viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="av" x1="6" y1="42" x2="42" y2="6" gradientUnits="userSpaceOnUse"><stop stop-color="#2563EB"/><stop offset="1" stop-color="#38BDF8"/></linearGradient></defs><circle cx="24" cy="24" r="24" fill="url(#av)"/><circle cx="24" cy="19" r="7" fill="#fff"/><path d="M11 40c1.5-7 6.8-11 13-11s11.5 4 13 11" fill="#fff"/></svg><span class="qonline"></span></span>';
+  var AVATAR = '<span class="qavatar"><svg viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="av" x1="6" y1="42" x2="42" y2="6" gradientUnits="userSpaceOnUse"><stop stop-color="#4F46E5"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs><circle cx="24" cy="24" r="24" fill="url(#av)"/><circle cx="24" cy="19" r="7" fill="#fff"/><path d="M11 40c1.5-7 6.8-11 13-11s11.5 4 13 11" fill="#fff"/></svg><span class="qonline"></span></span>';
 
   var NAV = [["Internet","/internet"],["Cable TV","/cable-tv"],["Bundles","/bundle"],["Home Phone","/home-phone"],["Movers","/movers"]];
 
