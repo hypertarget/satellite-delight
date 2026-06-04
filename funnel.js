@@ -125,15 +125,15 @@
     document.title = title || ("Satellite Delight — "+cfg.name);
 
     app.innerHTML =
-      '<section class="hero"><div class="wrap hero-grid">'+
-        '<div><span class="eyebrow">'+eyebrow+'</span>'+
+      '<section class="hero hero-stack"><div class="wrap stack-wrap">'+
+        '<div class="stack-head"><span class="eyebrow">'+eyebrow+'</span>'+
           '<h1 class="head">'+headline+'</h1>'+
           '<p class="lead">'+sub+'</p>'+
           '<div class="trustline">'+
-            '<span>'+CK+' Free, no-obligation quotes</span>'+
-            '<span>'+CK+' Local professionals</span>'+
-            '<span>'+CK+' Takes under 60 seconds</span></div></div>'+
-        '<div id="quiz"><div class="card" id="quizcard"></div></div>'+
+            '<span>'+CK+' Free, no obligation</span>'+
+            '<span>'+CK+' Compare providers</span>'+
+            '<span>'+CK+' Under 60 seconds</span></div></div>'+
+        '<div id="quiz" class="stack-quiz"><div class="card" id="quizcard"></div></div>'+
       '</div></section>'+
       supportHtml(cfg, city);
 

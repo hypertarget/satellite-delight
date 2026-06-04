@@ -82,13 +82,14 @@ async function audit(page) {
   return await page.evaluate(() => {
     const iw = window.innerWidth, ih = window.innerHeight;
     const offenders = [];
-    // Content intentionally placed inside a horizontal scroller (overflow-x:auto/scroll)
-    // is allowed to be wider than the viewport — it scrolls internally, not the page.
+    // Content clipped by an ancestor (overflow-x:auto/scroll/hidden/clip — e.g. a horizontal
+    // scroller or an animated marquee) is allowed to be wider than the viewport: it's clipped,
+    // so it can't scroll the page. Only un-clipped content that exceeds the viewport is a real bug.
     const inScroller = (el) => {
       let p = el.parentElement;
       while (p && p !== document.body) {
         const o = getComputedStyle(p);
-        if (/(auto|scroll)/.test(o.overflowX) || /(auto|scroll)/.test(o.overflow)) return true;
+        if (/(auto|scroll|hidden|clip)/.test(o.overflowX) || /(auto|scroll|hidden|clip)/.test(o.overflow)) return true;
         p = p.parentElement;
       }
       return false;

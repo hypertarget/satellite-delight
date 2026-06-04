@@ -267,3 +267,61 @@ body.quiz-engaged{padding-bottom:0!important}
 .provider-chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:780px;margin:18px auto 0}
 .provider-chips span{background:#fff;border:1px solid var(--line);border-radius:99px;padding:8px 16px;font-weight:700;font-size:14px;color:var(--navy)}
 .provider-note{max-width:780px;margin:16px auto 0;color:var(--muted);font-size:12px;line-height:1.55}
+
+/* ===== Satellite structural layout — a different skeleton, not just a different paint ===== */
+/* Funnel hero: centered "stack" (headline, then the quiz card directly below) instead of side-by-side */
+.hero-stack .stack-wrap{max-width:780px;margin:0 auto;text-align:center}
+.hero-stack .stack-head{max-width:700px;margin:0 auto}
+.hero-stack .lead{margin-left:auto;margin-right:auto}
+.hero-stack .trustline{justify-content:center}
+.hero-stack .stack-quiz{max-width:560px;margin:24px auto 0;text-align:left}
+@media(max-width:880px){
+  .hero-stack .stack-wrap{display:flex;flex-direction:column}
+  .hero-stack .stack-quiz{order:-1;margin:0 auto}
+  .hero-stack .stack-head{order:2;margin-top:14px}
+  .hero-stack .stack-head .lead{display:none}
+}
+
+/* Homepage hero: address-first */
+.homehero{padding-bottom:0}
+.addrbar{display:flex;gap:8px;max-width:560px;margin:0 auto;background:#fff;border-radius:16px;padding:8px;box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.addrbar-ic{display:flex;align-items:center;padding-left:8px;color:var(--teal)}
+.addrbar-ic svg{width:22px;height:22px}
+.addrbar input{flex:1;min-width:0;border:0;outline:none;font-size:16px;font-family:inherit;padding:10px 6px;color:var(--ink);background:transparent}
+.addrbar .btn{white-space:nowrap}
+.addrnote{color:#c9c7ea;font-size:13px;margin-top:14px}
+@media(max-width:520px){ .addrbar{flex-wrap:wrap} .addrbar .btn{width:100%} }
+
+/* Provider marquee */
+.marquee{margin-top:36px;overflow:hidden;border-top:1px solid rgba(255,255,255,.10);border-bottom:1px solid rgba(255,255,255,.10);padding:15px 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.marquee-track{display:flex;gap:40px;width:max-content;animation:marq 30s linear infinite}
+.marquee-track span{color:rgba(255,255,255,.72);font-weight:700;font-size:16px;letter-spacing:.4px;white-space:nowrap}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* Service rows (a list, not a card grid) */
+.srows{display:flex;flex-direction:column;gap:12px;margin:26px auto 0;max-width:840px}
+.srow{display:flex;align-items:center;gap:16px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;transition:.14s}
+.srow:hover{border-color:var(--teal);transform:translateX(3px);box-shadow:0 12px 26px rgba(79,70,229,.10)}
+.srow .ic{width:46px;height:46px;border-radius:12px;background:#ecebfb;display:flex;align-items:center;justify-content:center;flex:none}
+.srow .ic svg{width:24px;height:24px;stroke:var(--teal)}
+.srow .tx{flex:1}
+.srow .tx strong{display:block;font-size:16px;font-weight:700;color:var(--navy)}
+.srow .tx em{display:block;font-style:normal;font-size:13.5px;color:var(--muted)}
+.srow .arw{color:var(--teal);flex:none;display:flex}
+
+/* Horizontal numbered timeline */
+.timeline{list-style:none;padding:0;margin:30px auto 0;max-width:900px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;position:relative}
+.timeline:before{content:"";position:absolute;top:18px;left:16%;right:16%;height:2px;background:var(--line)}
+.timeline li{position:relative;text-align:center;padding:0 6px}
+.timeline .tnum{position:relative;z-index:1;width:38px;height:38px;border-radius:99px;background:var(--grad);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 12px}
+.timeline h3{font-size:16px;font-weight:700;margin:0 0 5px}
+.timeline p{font-size:14px;color:var(--muted);margin:0}
+@media(max-width:780px){ .timeline{grid-template-columns:1fr;gap:16px;max-width:420px} .timeline:before{display:none} }
+
+/* 3-column compare band */
+.compare3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:26px auto 0;max-width:920px;text-align:left}
+.ccol{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 20px}
+.ccol.feat{border-color:var(--teal);box-shadow:0 14px 30px rgba(79,70,229,.12)}
+.ccol h3{font-size:18px;font-weight:700;margin:0 0 8px}
+.ccol p{font-size:14px;color:var(--muted);margin:0}
+@media(max-width:780px){ .compare3{grid-template-columns:1fr} }
