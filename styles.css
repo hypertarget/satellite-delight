@@ -40,9 +40,9 @@ header.site{position:sticky;top:0;z-index:50;background:rgba(20,18,51,.86);backd
 .site .bar{display:flex;align-items:center;justify-content:space-between;height:66px;gap:12px}
 .logo{display:flex;align-items:center;gap:11px}
 .logo svg{width:42px;height:42px;flex:none}
-.logo .word{display:flex;flex-direction:column;line-height:1}
-.logo .r{font-weight:700;font-size:21px;letter-spacing:3px;color:#fff;font-family:"Space Grotesk",sans-serif}
-.logo .h{font-weight:600;font-size:9px;letter-spacing:5px;color:var(--green);margin-top:3px}
+.logo .word{display:flex;align-items:baseline;line-height:1}
+.logo .r{font-weight:700;font-size:22px;letter-spacing:-.5px;color:#fff;font-family:"Space Grotesk",sans-serif;text-transform:none}
+.logo .h{font-weight:700;font-size:22px;letter-spacing:-.5px;color:var(--green);font-family:"Space Grotesk",sans-serif;text-transform:none}
 .site nav{display:flex;align-items:center;gap:18px}
 .site nav a.navlink{font-weight:600;font-size:14px;color:rgba(255,255,255,.82)}
 .site nav a.navlink:hover{color:#fff}
@@ -190,8 +190,8 @@ h1.head{font-size:clamp(32px,5.2vw,54px);line-height:1.05;font-weight:700;margin
 footer.site{background:var(--navy);color:#cdcbe6;padding:34px 0 26px;margin-top:10px}
 footer .ftop{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:flex-start}
 footer .fbrand{display:flex;align-items:center;gap:10px}
-footer .fbrand .r{font-weight:800;letter-spacing:2px;color:#fff}
-footer .fbrand .h{font-weight:600;font-size:9px;letter-spacing:4px;color:var(--green)}
+footer .fbrand .r{font-weight:700;letter-spacing:-.5px;color:#fff;font-size:18px;font-family:"Space Grotesk",sans-serif}
+footer .fbrand .h{font-weight:700;letter-spacing:-.5px;color:var(--green);font-size:18px;font-family:"Space Grotesk",sans-serif}
 footer nav{display:flex;gap:18px;flex-wrap:wrap}
 footer nav a{color:#cdcbe6;font-size:13.5px;font-weight:600}
 footer nav a:hover{color:#fff}

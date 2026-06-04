@@ -41,7 +41,7 @@
 
   var telHref = function(n){ return "tel:+1" + (n||"").replace(/\D/g,""); };
 
-  var LOGO = '<svg viewBox="0 0 64 64" fill="none" aria-label="Satellite Delight"><defs><linearGradient id="rg" x1="8" y1="56" x2="56" y2="8" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#818CF8"/></linearGradient></defs><circle cx="32" cy="46" r="4.5" fill="url(#rg)"/><path d="M20 38 a17 17 0 0 1 24 0" stroke="url(#rg)" stroke-width="4.6" stroke-linecap="round"/><path d="M13.5 30 a26 26 0 0 1 37 0" stroke="url(#rg)" stroke-width="4.6" stroke-linecap="round"/><path d="M7 22 a35 35 0 0 1 50 0" stroke="url(#rg)" stroke-width="4.6" stroke-linecap="round"/></svg>';
+  var LOGO = '<svg viewBox="0 0 64 64" fill="none" aria-label="Satellite Delight"><path d="M42 15A7 7 0 0 1 49 22" stroke="#22D3EE" stroke-width="2.8" stroke-linecap="round"/><path d="M42 10A12 12 0 0 1 54 22" stroke="#38BDF8" stroke-width="2.8" stroke-linecap="round"/><path d="M42 5A17 17 0 0 1 59 22" stroke="#818CF8" stroke-width="2.8" stroke-linecap="round"/><rect x="24.4" y="37.5" width="3" height="10.5" rx="1" fill="#fff"/><path d="M19 51L31 51L28.5 47L21.5 47Z" fill="#fff"/><ellipse cx="26" cy="33" rx="15.5" ry="9" transform="rotate(-35 26 33)" fill="#fff"/><path d="M27 31L41 23" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><circle cx="42" cy="22.5" r="2.6" fill="#fff"/><path d="M12 8c1.15 4.4 1.6 4.85 6 6-4.4 1.15-4.85 1.6-6 6-1.15-4.4-1.6-4.85-6-6 4.4-1.15 4.85-1.6 6-6Z" fill="#FBBF24"/></svg>';
 
   var CK = '<svg class="ck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
   var SHIELD = '<svg viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 7.7-8 9-4.5-1.3-8-4-8-9V6z"/></svg>';
@@ -73,7 +73,7 @@
     var h=document.createElement("header"); h.className="site";
     var ctaHref = (window.SITE_PAGE==="vertical") ? "#quiz" : "/#projects";
     var ctaTxt = (window.SITE_PAGE==="vertical") ? "Get Free Quote" : "Find My Best Plans";
-    h.innerHTML='<div class="wrap bar"><a class="logo" href="/">'+LOGO+'<span class="word"><span class="r">SATELLITE</span><span class="h">D E L I G H T</span></span></a>'+
+    h.innerHTML='<div class="wrap bar"><a class="logo" href="/">'+LOGO+'<span class="word"><span class="r">satellite</span><span class="h">delight</span></span></a>'+
       '<nav>'+NAV.map(function(n){return '<a class="navlink" href="'+n[1]+'">'+n[0]+'</a>';}).join('')+
       phoneCTA("phone")+
       '<a class="btn btn-grad" style="padding:11px 18px;font-size:14px" href="'+ctaHref+'">'+ctaTxt+'</a></nav></div>';
@@ -87,7 +87,7 @@
       ? 'To request information without consenting to automated calls or texts, call '+NON_CONSENT_PHONE+'.'
       : 'To request information without consenting to automated calls or texts, call (XXX) XXX-XXXX.';
     f.innerHTML='<div class="wrap"><div class="ftop">'+
-      '<div class="fbrand">'+LOGO+'<span><span class="r">SATELLITE</span> <span class="h">DELIGHT</span></span></div>'+
+      '<div class="fbrand">'+LOGO+'<span><span class="r">satellite</span><span class="h">delight</span></span></div>'+
       '<nav><a href="/locations">Service Areas</a><a href="/privacy-policy">Privacy Policy</a><a href="/terms-and-conditions">Terms &amp; Conditions</a><a href="/california-privacy-notice">California Privacy Notice</a><a href="/partners">Marketing Partners</a><a href="/do-not-sell-or-share">Do Not Sell or Share My Personal Information</a></nav>'+
       '</div>'+
       '<p class="disc">Satellite Delight is an independent comparison and referral service for home internet, TV, and phone service. Satellite Delight is not a service provider and is not affiliated with, endorsed by, or an agent of any provider. Provider names and logos are trademarks of their respective owners. Plans, pricing, speeds, channel lineups, and availability are set by the providers, vary by address, and are subject to change. We may be compensated by providers or partners when you order through our links or calls, at no additional cost to you. '+nonconsent+'</p>'+
