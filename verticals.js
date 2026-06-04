@@ -30,22 +30,24 @@
         {q:"Can I get internet without a contract?", a:"Yes — several providers offer no-annual-contract plans. Tell us your preference and we'll prioritize matching offers."}
       ].concat(GENERAL),
       seo:{
-        label:"Home internet guide", heading:"Shopping for home internet: what to know",
+        label:"Home internet guide", heading:"How to choose home internet (and not overpay)",
+        factorsHead:"What drives your internet price & speed",
+        typesHead:"Internet connection types, compared",
         lead:[
-          "The best internet plan depends on what's actually available at your address, how many people and devices share the connection, and what you do online — streaming and working from home need more speed than browsing. Availability and pricing differ from one address to the next, even on the same street.",
-          "Because offers in {area} change often and vary by provider, the smartest move is to compare the plans available at your address side by side. Satellite Delight makes that quick and free — answer a few questions and we'll match you with providers serving your location."
+          "The right internet plan starts with what's actually wired to your address — fiber, cable, and 5G home internet aren't available everywhere, and two homes on the same street can have very different options. After availability, it comes down to the speed your household really needs to stream, work, and game.",
+          "The catch in home internet is the promo-price cliff: a low intro rate that jumps after about 12 months, plus equipment rental and one-time install or activation fees. Comparing the real, all-in offers available at your address in {area} side by side is the only way to see what you'll actually pay — and Satellite Delight does it free."
         ],
         factors:[
-          {h:"Speed (Mbps)", p:"Higher speeds cost more but matter for streaming, gaming, and multiple users."},
-          {h:"Technology", p:"Fiber, cable, and 5G/fixed-wireless differ in speed, consistency, and availability."},
-          {h:"Contract & fees", p:"Watch for promo periods, equipment rental, and installation or activation fees."},
-          {h:"Data caps", p:"Some plans cap monthly data; unlimited plans suit heavy streamers and households."}
+          {h:"Promo vs. regular price", p:"Intro rates often rise after ~12 months — check the price after the promo, not just month one."},
+          {h:"Speed for your use", p:"Match Mbps to how your household streams and works — not to the biggest tier."},
+          {h:"Equipment & fees", p:"Modem/router rental, install, and activation fees add up; some plans let you use your own gear."},
+          {h:"Contract & data caps", p:"Some plans add contracts or monthly data caps — no-contract and unlimited options exist."}
         ],
         types:[
-          {h:"Fiber internet", p:"Fastest and most reliable, with symmetrical upload speeds — where available."},
-          {h:"Cable internet", p:"Widely available with fast downloads; great all-rounder."},
-          {h:"5G / fixed-wireless", p:"No-contract home internet over the cellular network."},
-          {h:"DSL / satellite", p:"Coverage in rural and harder-to-reach areas."}
+          {h:"Fiber", p:"Fastest and most consistent, with symmetrical uploads — where it's available."},
+          {h:"Cable", p:"Widely available with fast downloads; the all-rounder for most homes."},
+          {h:"5G / fixed-wireless", p:"No-contract home internet over the cellular network, expanding fast."},
+          {h:"DSL / satellite", p:"Coverage for rural and harder-to-reach addresses."}
         ]
       },
       gallery:["Home WiFi, set up fast","Fiber-fast speeds","Whole-home coverage","Work-from-home ready","Streaming without buffering","Simple self-install"]
@@ -67,22 +69,24 @@
         {q:"Can I get the sports or premium channels I want?", a:"Channel lineups vary by provider and package. Tell us what you watch and we'll prioritize matching packages."}
       ].concat(GENERAL),
       seo:{
-        label:"TV guide", heading:"Choosing a TV package",
+        label:"TV guide", heading:"Finding a TV package worth paying for",
+        factorsHead:"What shapes your TV bill",
+        typesHead:"Ways to get the channels you want",
         lead:[
-          "The right TV package comes down to the channels you actually watch — local and live TV, sports, premium movie channels, or a family mix — and whether you'd rather bundle with internet. Lineups and prices vary by provider and by address.",
-          "Satellite Delight lets you compare the cable and satellite TV offers available at your address in {area}, so you can find the channels you want at a price that works — free and with no obligation."
+          "TV pricing is rarely just the package price. Regional sports fees, broadcast-TV surcharges, and receiver or DVR rental all move the real number — and the channels in each lineup differ by provider and by address.",
+          "Start from the channels you actually watch — local and live TV, sports, or premium movies — and whether bundling with internet lowers the total. Satellite Delight compares the cable and satellite TV offers available at your address in {area}, free and with no obligation."
         ],
         factors:[
-          {h:"Channel lineup", p:"Local, sports, news, and premium channels differ by package."},
-          {h:"Bundle vs. standalone", p:"Bundling with internet often lowers the combined cost."},
-          {h:"Equipment & DVR", p:"Receiver and DVR fees affect the monthly total."},
-          {h:"Contract & promos", p:"Promo pricing periods and contract terms vary."}
+          {h:"Channel lineup", p:"Local, sports, news, and premium channels vary by package — pay for what you watch."},
+          {h:"Hidden fees", p:"Regional sports and broadcast-TV surcharges plus DVR/receiver rental inflate the bill."},
+          {h:"Bundle vs. standalone", p:"Adding TV to internet usually beats a standalone TV price."},
+          {h:"Contract & promo", p:"Many TV deals are promo-priced for a term — know the post-promo rate."}
         ],
         types:[
-          {h:"Cable TV", p:"Broad channel selection, often bundled with internet."},
-          {h:"Satellite TV", p:"Wide coverage, strong sports and rural availability."},
-          {h:"TV + internet bundle", p:"One bill, usually a lower combined price."},
-          {h:"Streaming add-ons", p:"Premium and on-demand options layered on top."}
+          {h:"Cable TV", p:"Broad channel selection, easy to bundle with internet."},
+          {h:"Satellite TV", p:"Wide coverage with strong sports and rural availability."},
+          {h:"TV + internet bundle", p:"One bill and usually the lowest combined price."},
+          {h:"Live-TV streaming", p:"Skinnier, no-box channel bundles delivered over your internet."}
         ]
       },
       gallery:["The big-screen experience","Live TV & local channels","Game day, covered","Movies & premium picks","Family-friendly lineups","Bundle TV + internet"]
@@ -104,22 +108,24 @@
         {q:"What if I only want two of the three services?", a:"That's fine — internet+TV and internet+phone bundles are common. Pick the combination you want above."}
       ].concat(GENERAL),
       seo:{
-        label:"Bundle guide", heading:"Internet, TV & phone bundles",
+        label:"Bundle guide", heading:"Bundling internet, TV & phone — when it actually saves",
+        factorsHead:"What changes a bundle's price",
+        typesHead:"Popular bundle combinations",
         lead:[
-          "Bundling internet with TV and/or home phone usually lowers your combined monthly cost and puts everything on one bill. The best bundle depends on the internet speed you need, the channels you watch, and whether you still want a home phone line.",
-          "Satellite Delight compares the bundle offers available at your address in {area} so you can find the right mix at the best combined price — free and with no obligation."
+          "Bundling usually lowers your combined monthly cost and puts internet, TV, and home phone on one bill — but the savings depend on the internet speed you pick, the size of the TV package, and whether the discount is promo-priced for a term. Autopay and paperless billing often shave a little more.",
+          "The right bundle is the smallest one that covers what you use. Satellite Delight compares the bundle offers available at your address in {area} so you can see the real combined price — free and with no obligation."
         ],
         factors:[
-          {h:"Services included", p:"Internet + TV (+ phone) combinations change the price."},
-          {h:"Internet speed", p:"Higher tiers raise the bundle price."},
-          {h:"TV package size", p:"More channels and premium add-ons cost more."},
-          {h:"Promo & contract", p:"Bundle discounts often apply for a promo period."}
+          {h:"Services included", p:"Internet + TV (+ phone) combinations each change the price."},
+          {h:"Internet speed tier", p:"Higher speeds raise the bundle price — match it to your household."},
+          {h:"TV package size", p:"More channels and premium add-ons cost more; trim to what you watch."},
+          {h:"Promo term & autopay", p:"Bundle discounts often run for a promo period; autopay/paperless can lower it further."}
         ],
         types:[
           {h:"Internet + TV", p:"The most popular combo for most households."},
-          {h:"Triple play", p:"Internet + TV + home phone on one bill."},
-          {h:"Internet + phone", p:"Connectivity plus a reliable home line."},
-          {h:"Custom bundle", p:"Mix speeds, channels, and add-ons to fit."}
+          {h:"Triple play", p:"Internet + TV + home phone on a single bill."},
+          {h:"Internet + phone", p:"Connectivity plus a reliable home line, no TV."},
+          {h:"Custom bundle", p:"Mix speed, channels, and add-ons to fit how you live."}
         ]
       },
       gallery:["One bill, every service","A fully connected home","Internet + TV together","Save by bundling","Built for busy households","Compare bundle offers"]
@@ -141,22 +147,24 @@
         {q:"Can I keep my current phone number?", a:"In most cases yes — number transfer (porting) is common. Confirm details with the provider you choose."}
       ].concat(GENERAL),
       seo:{
-        label:"Home phone guide", heading:"Home phone service options",
+        label:"Home phone guide", heading:"Does a home phone still make sense?",
+        factorsHead:"What to weigh in a home phone",
+        typesHead:"Home phone options",
         lead:[
-          "A home phone is still valuable for reliable calling, emergencies, and households that want a dedicated line. You can get it on its own, bundled with internet and TV for a lower combined price, or as an internet-based (VoIP) line with rich features.",
-          "Satellite Delight compares the home phone options available at your address in {area} — free and with no obligation."
+          "A home phone still earns its place for reliable calling, households that want a dedicated line, and anyone who wants service that keeps working in an outage. The main choice is technology: a traditional landline that works during power and internet outages, or a cheaper internet-based (VoIP) line loaded with features.",
+          "Adding a line to an existing internet or TV plan is usually the cheapest route, and in most cases you can keep your current number. Satellite Delight compares the home phone options available at your address in {area} — free and with no obligation."
         ],
         factors:[
-          {h:"Service type", p:"Landline vs. VoIP affects price, features, and outage behavior."},
-          {h:"Bundling", p:"Adding phone to internet/TV is usually the cheapest route."},
-          {h:"Calling features", p:"Voicemail, caller ID, and long-distance options vary."},
-          {h:"Number porting", p:"Keeping your existing number is usually possible."}
+          {h:"Landline vs. VoIP", p:"Landlines work in power/internet outages; VoIP is cheaper and feature-rich."},
+          {h:"Bundling", p:"Adding phone to internet/TV is usually the lowest-cost way to get a line."},
+          {h:"Calling features", p:"Voicemail, caller ID, and unlimited long-distance vary by plan."},
+          {h:"Keep your number", p:"Number transfer (porting) from your old provider is usually possible."}
         ],
         types:[
-          {h:"Bundled home phone", p:"Add a line to internet/TV for a low add-on price."},
-          {h:"Standalone landline", p:"A dedicated, reliable home line."},
-          {h:"VoIP / digital phone", p:"Internet-based calling with extra features."},
-          {h:"Unlimited calling", p:"Local and long-distance without per-minute charges."}
+          {h:"Bundled home phone", p:"A low-cost add-on line on your internet/TV plan."},
+          {h:"Standalone landline", p:"A dedicated, outage-resilient home line."},
+          {h:"VoIP / digital phone", p:"Internet-based calling with the most features for less."},
+          {h:"Unlimited calling", p:"Local and long-distance with no per-minute charges."}
         ]
       },
       gallery:["A reliable home line","Keep your number","Crystal-clear calling","Bundle phone & save","Voicemail & caller ID","Compare phone plans"]
@@ -178,22 +186,24 @@
         {q:"Are there family or multi-line discounts?", a:"Yes — per-line pricing usually drops as you add lines. Tell us how many lines you need above."}
       ].concat(GENERAL),
       seo:{
-        label:"Mobile plan guide", heading:"Comparing mobile phone plans",
+        label:"Mobile plan guide", heading:"Getting the right mobile plan for less",
+        factorsHead:"What drives your mobile cost",
+        typesHead:"Plan types, compared",
         lead:[
-          "The best mobile plan depends on how many lines you need, how much data you use, the coverage in your area, and whether you want a new phone. Carriers price aggressively to win switchers, so the same usage can cost very differently across plans.",
-          "Satellite Delight compares mobile plans and carrier offers for {area} so you can find the right fit — free and with no obligation."
+          "Mobile is one of the easiest bills to overpay. The major carriers, their prepaid brands, and budget MVNOs often run on the same networks — so similar coverage and data can cost very differently depending on the plan, the number of lines, and whether you're financing a phone.",
+          "Per-line pricing usually drops as you add lines, and bringing your own phone avoids a new device payment. Satellite Delight compares mobile plans and carrier offers for {area} so you can find the right fit — free and with no obligation."
         ],
         factors:[
-          {h:"Number of lines", p:"Per-line price usually drops as you add lines."},
-          {h:"Data needs", p:"Unlimited vs. capped plans suit different users."},
-          {h:"Coverage", p:"Network coverage varies by carrier and location."},
-          {h:"Device deals", p:"Trade-in and new-phone promos affect total cost."}
+          {h:"Number of lines", p:"Per-line cost usually falls as you add lines — family plans win."},
+          {h:"Data needs", p:"Unlimited vs. capped, and premium vs. standard data, change the price."},
+          {h:"Carrier vs. MVNO", p:"Budget carriers often use the big networks for much less."},
+          {h:"Phone financing", p:"A 'free' phone is usually a 24–36 month bill commitment — separate it out."}
         ],
         types:[
-          {h:"Unlimited plans", p:"Data without overage worries for heavy users."},
+          {h:"Unlimited plans", p:"No overage worries for heavy data users."},
           {h:"Family / multi-line", p:"Shared plans with per-line discounts."},
-          {h:"Bring your own phone", p:"Keep your device and just switch the plan."},
-          {h:"Prepaid", p:"No-contract flexibility and budget pricing."}
+          {h:"Prepaid / MVNO", p:"No-contract, lower-cost plans on major networks."},
+          {h:"Bring your own phone", p:"Keep your device and just switch the plan."}
         ]
       },
       gallery:["Plans for every budget","Unlimited data options","Coverage that keeps up","Family & multi-line deals","Bring your own phone","Switch & save"]
@@ -216,22 +226,24 @@
         {q:"Can I get everything connected by move-in day?", a:"Often yes, especially with self-install. The earlier you start, the better the options."}
       ].concat(GENERAL),
       seo:{
-        label:"Moving guide", heading:"Setting up service for a move",
+        label:"Moving guide", heading:"Setting up internet, TV & phone for a move",
+        factorsHead:"What to plan when you move",
+        typesHead:"Ways to get connected at the new place",
         lead:[
-          "Moving is the best time to compare providers — availability and offers reset at your new address, and starting early means you're connected by move-in day. You can line up internet, TV, home phone, and even mobile in one place.",
-          "Satellite Delight shows what's available at your new address in {area} and matches you with providers so you can get connected without the scramble — free and with no obligation."
+          "Moving resets your options: availability, providers, and new-customer offers all change at the new address, so the plan you have now may not be the best — or even available — where you're headed. Starting one to two weeks ahead means you're connected by move-in day instead of scrambling.",
+          "Watch for overlap so you're not paying two providers at once, and decide whether to transfer your service or start fresh on a better local offer. Satellite Delight shows what's available at your new address in {area} and lines up the providers — free and with no obligation."
         ],
         factors:[
-          {h:"New-address availability", p:"Providers and speeds differ at every address."},
-          {h:"Timing", p:"Start 1–2 weeks ahead for install/self-install in time."},
-          {h:"Services needed", p:"Internet, TV, phone, and mobile can be set up together."},
-          {h:"Promo offers", p:"New-customer and move-in deals are common."}
+          {h:"New-address availability", p:"Providers and speeds differ at every address — your current plan may not transfer."},
+          {h:"Timing", p:"Start 1–2 weeks ahead so install or a self-install kit arrives in time."},
+          {h:"Transfer vs. new account", p:"Transferring is easy, but a new-customer offer is often cheaper."},
+          {h:"Avoid double-billing", p:"Line up the start/stop dates so you're not paying two providers at once."}
         ],
         types:[
           {h:"New-home internet", p:"Get online by move-in day."},
-          {h:"Transfer or switch", p:"Move your service or pick a better local offer."},
-          {h:"Bundle for the move", p:"Set up internet, TV, and phone at once."},
-          {h:"Self-install", p:"Skip the wait with a self-install kit where available."}
+          {h:"Transfer or switch", p:"Move your service or grab a better local offer."},
+          {h:"Bundle for the move", p:"Set up internet, TV, and phone in one go."},
+          {h:"Self-install", p:"Skip the technician wait with a self-install kit where available."}
         ]
       },
       gallery:["Connected by move-in day","New home, new setup","One stop for the move","Internet ready on day one","Transfer or switch easily","Compare your new address"]

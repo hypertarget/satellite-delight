@@ -191,8 +191,8 @@
         '<div class="seclabel">'+(seo.label||'Project guide')+'</div>'+
         '<h2 class="sec-h">'+heading+'</h2>'+
         '<div class="seo-body">'+lead+'</div>'+
-        (factors?'<h3 class="seo-sub">What affects the cost</h3><div class="factors">'+factors+'</div>':'')+
-        (typesList?'<h3 class="seo-sub">Popular options</h3><div class="ptypes">'+typesList+'</div>':'')+
+        (factors?'<h3 class="seo-sub">'+(seo.factorsHead||'What affects the cost')+'</h3><div class="factors">'+factors+'</div>':'')+
+        (typesList?'<h3 class="seo-sub">'+(seo.typesHead||'Popular options')+'</h3><div class="ptypes">'+typesList+'</div>':'')+
         '<p class="seo-cta"><a class="btn btn-grad" href="#quiz">See your '+cfg.word+' options &rsaquo;</a></p>'+
       '</div></section>';
   }
